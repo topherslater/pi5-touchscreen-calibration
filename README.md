@@ -1,8 +1,11 @@
-# Touchscreen Calibration For Hub Screen from a Samasung Refrigerator connected to a Raspberry Pi (Wayland/Wayfire)
+# Touchscreen Calibration For Samsung Hub Screen from a Samasung Refrigerator connected to a Raspberry Pi (Wayland/Wayfire)
 
 A guide for calibrating an ILI210x (or similar I2C/USB) touchscreen on a Raspberry Pi running Wayland with Wayfire — especially when the display is rotated for portrait/kiosk mode.
 
 ## The Problem
+Repurposed a Samsung Hub Screen by adding it to a Raspberry Pi via I2c and a Display contorller board 
+"DVI VGA LVDs Display Controller Board for 21.5" 23" 27 inch 1920x1080 30 Pin LCD Screen Panel"
+https://a.co/d/08pw1Sbx
 
 When running a Pi with a rotated display (e.g., portrait mode for a Home Assistant kiosk), the touchscreen coordinates often don't match the display. Symptoms include:
 
