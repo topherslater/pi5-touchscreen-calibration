@@ -1,4 +1,4 @@
-# Touchscreen Calibration For Samsung Hub Screen from a Samasung Refrigerator connected to a Raspberry Pi (Wayland/Wayfire)
+# Touchscreen Calibration For Samsung Hub Screen from a Samasung Refrigerator connected to a Raspberry Pi 5 (Wayland/Wayfire)
 
 A guide for calibrating an ILI210x (or similar I2C/USB) touchscreen on a Raspberry Pi running Wayland with Wayfire — especially when the display is rotated for portrait/kiosk mode.
 
